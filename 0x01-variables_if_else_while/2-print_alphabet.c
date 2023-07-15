@@ -8,6 +8,9 @@
 
 int main(void)
 {
-	putchar("abcdefghijklmnopqrstuvwxyz\n");
+	for (char a = 'a'; a < 'z'; a++)
+	{
+		putchar(a);
+	}
 	return (0);
 }
