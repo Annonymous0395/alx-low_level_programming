@@ -9,13 +9,15 @@
 int main(void)
 {
 	char a = 'a';
-	char b = 'B';
+	char b = 'A';
 
-	for (a = 'a'; a <= 'z'; a = a + 2)
+	for (a = 'a'; a <= 'z'; a++)
 	{
 		putchar(a);
+	}
+	for (b = 'A'; b <= 'Z'; b++)
+	{
 		putchar(b);
-		b = b + 2;
 	}
 	putchar('\n');
 	return (0);
