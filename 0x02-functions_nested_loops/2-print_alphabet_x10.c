@@ -5,16 +5,17 @@
  *
  * Return: void
  */
+
 void print_alphabet_x10(void)
 {
-	print_alphabet();
-	print_alphabet();
-	print_alphabet();
-	print_alphabet();
-	print_alphabet();
-	print_alphabet();
-	print_alphabet();
-	print_alphabet();
-	print_alphabet();
-	print_alphabet();
+	int i;
+	int a;
+
+	while (i < 10)
+	{
+		for (a = 'a'; a <= 'z'; a++)
+		{
+			_putchar(a);
+		}
+		_putchar('\n');
 }
