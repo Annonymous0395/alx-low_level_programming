@@ -9,11 +9,9 @@
  */
 
 int _islower(int c)
-{	
-	int r = islower(c);
-	bool x = true
+{
 
-	if (r == x)
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
