@@ -10,9 +10,10 @@
 
 int _islower(int c)
 {	
-	int r = int islower(int c);
+	int r = islower(c);
+	bool x = true
 
-	if (r == true)
+	if (r == x)
 	{
 		return (1);
 	}
