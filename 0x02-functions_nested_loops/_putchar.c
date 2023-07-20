@@ -6,7 +6,7 @@
  * Return: Always 0 (success)
  */
 
-int _putchar(int n)
+int _putchar(int a)
 {
 	putchar(a);
 	return (0);
