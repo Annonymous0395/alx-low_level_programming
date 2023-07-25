@@ -7,9 +7,8 @@
  * Return: value of c  (success)
  */
 
-int print_last_digit(int)
+int print_last_digit(int c)
 {
-	int c;
 	int n = c % 10;
 
 	return (n);
