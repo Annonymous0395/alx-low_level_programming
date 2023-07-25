@@ -2,7 +2,7 @@
 
 /**
  * print_sign - Entry point
- * @n - number to check
+ * @n: number to check
  *
  * Return: 1 if positive. 0 if zero. -1 if negative
  */
