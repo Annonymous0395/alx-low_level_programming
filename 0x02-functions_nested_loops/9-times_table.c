@@ -18,18 +18,22 @@ void times_table(void)
 		{
 			int t = i * n;
 
-			printf("%d", t);
-			if ( n < 9)
+			if (t == 0)
 			{
-				printf(",");
-			}	
-			if (t > 9)
+				continue;
+			}
+			else if (t > 9)
 			{
 				printf(" ");
 			}
 			else
 			{
 				printf("  ");
+			}
+			printf("%d", t);
+			if (n < 9)
+			{
+				printf(",");
 			}
 		}
 		printf("\n");
