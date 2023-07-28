@@ -3,7 +3,7 @@
 /**
  * times_table - Entry point
  *
- * Return: void 
+ * Return: void
  */
 
 void times_table(void)
@@ -25,4 +25,4 @@ void times_table(void)
 			}
 		}
 	}
-}	
+}
