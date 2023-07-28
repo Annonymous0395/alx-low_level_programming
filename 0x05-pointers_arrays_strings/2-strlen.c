@@ -7,9 +7,14 @@
  * Return: Always 0 (success)
  */
 
-int _strlen(char *s)
+int _strlen(char s)
 {
-	int i = strlen(*s);
+	int i;
+	int counter = 0
+	for (i = 0; i < s; i++) 
+	{
+		counter = i;
+	}
 
 	return (i);
 }	
