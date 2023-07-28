@@ -21,24 +21,17 @@ void times_table(void)
 			if (t == 0)
 			{
 				printf("%d", t);
-				if (n < 9 && i < 1)
+				if (n < 9 && i > 1)
 				{
 					printf(",");
 					printf("  ");
 				}
-				else
-				{
-					continue;
-				}
 			}
 			else
 			{
-				if (n <= 9)
+				if (n <= 9 && t <= 9)
 				{
 					printf(",");
-				}
-				if (t <= 9)
-				{
 					printf("  ");
 				}
 				else if (t > 9)
