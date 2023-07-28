@@ -12,14 +12,16 @@ void times_table(void)
 	int i;
 	int n;
 
-	for (i = 0; i <= 9; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		for (n = 0; n <= 9; n++)
+		for (n = '0'; n <= '9'; n++)
 		{
 			int t = i * n;
 
-			printf("%d, ", t);
-			if (n == 9)
+			_putchar(t);
+			_putchar(',');
+			_putchar(' ');
+			if (n == '9')
 			{
 				_putchar('\n');
 			}
