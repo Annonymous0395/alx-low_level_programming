@@ -37,7 +37,7 @@ void times_table(void)
 				{
 					printf(",");
 				}
-				if (t < 9)
+				if (t <= 9)
 				{
 					printf("  ");
 				}
