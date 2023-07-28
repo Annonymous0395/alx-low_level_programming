@@ -18,7 +18,7 @@ void times_table(void)
 		{
 			int t = i * n;
 
-			if (t == 0)
+			if (i == 0)
 			{
 				printf("%d", t);
 			}
@@ -32,7 +32,7 @@ void times_table(void)
 				printf(",");
 				printf("  ");
 			}
-			if (t > 0)
+			if (i > 0)
 			{
 				printf("%d", t);
 			}
