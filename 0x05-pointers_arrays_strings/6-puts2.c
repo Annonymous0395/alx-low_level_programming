@@ -23,6 +23,8 @@ void puts2(char *str)
 		if (i % 2 == 0)
 		{
 			char c = str[i];
+
+			_putchar(c);
 		}
 		i++;
 	}
