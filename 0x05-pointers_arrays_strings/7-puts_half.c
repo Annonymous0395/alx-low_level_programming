@@ -24,13 +24,15 @@ void puts_half(char *str)
 			_putchar(str[n]);
 			n++;
 		}
-		else
+	}
+	else
+	{
+		int n = (counter - 1) / 2;
+
+		while (n != counter)
 		{
-			n = (counter - 1) / 2;
-			while (n != counter)
-			{
-				_putchar(str[n]);
-				n++;
-			}
+			_putchar(str[n]);
+			n++;
 		}
+	}
 
