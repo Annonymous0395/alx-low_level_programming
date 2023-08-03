@@ -38,4 +38,8 @@ int _prime(int i, int n)
 		}
 		return (_prime(i + 1, n));
 	}
+	else
+	{
+		return (0);
+	}
 }
