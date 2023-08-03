@@ -33,7 +33,11 @@ int _sqrt_recursion(int n)
 
 int _sqrt(int i, int n)
 {
-	if (i > n/2)
+	if (i == 1)
+	{
+		return (1);
+	}
+	if (i > n / 2)
 	{
 		return (-1);
 	}
