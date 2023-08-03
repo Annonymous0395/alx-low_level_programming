@@ -43,6 +43,6 @@ int _sqrt(int i, int n)
 		{
 			return (i);
 		}
-		return (_sqrt(i++, n));
+		return (_sqrt(i + 1, n));
 	}
 }
