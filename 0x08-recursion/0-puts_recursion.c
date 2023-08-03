@@ -1,6 +1,6 @@
 #include "main.h"
 
-void _putsc(char *s, int n)
+void _putsc(char *s, int n);
 /**
  * _puts_recursion - Entry point
  * @s: param to be printed
