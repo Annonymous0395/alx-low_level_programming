@@ -1,6 +1,6 @@
 #include "main.h"
 
-int _prime (int i, int n);
+int _prime(int i, int n);
 
 /**
  * is_prime_number - Entry point
