@@ -17,6 +17,7 @@ void _puts_recursion(char *s)
 		_putchar(s[n]);
 		_putsc(s, n + 1);
 	}
+	_putchar('\n');
 }
 
 /**
@@ -29,7 +30,7 @@ void _puts_recursion(char *s)
 
 void _putsc(char *s, int n)
 {
-	if(s[n] != '\0')
+	if (s[n] != '\0')
 	{
 		_putchar(s[n]);
 		_putsc(s, n + 1);
