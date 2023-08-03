@@ -33,7 +33,7 @@ int _sqrt_recursion(int n)
 
 int _sqrt(int i, int n)
 {
-	if (i == 1)
+	if (n == 1)
 	{
 		return (1);
 	}
