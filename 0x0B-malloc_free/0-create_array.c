@@ -3,7 +3,7 @@
 
 /**
  * *create_array - Entry point
- * @n: param t determines size of the array
+ * @size: param that determines size of the array
  * @c: character to be assigned
  *
  * Return: pointer p, Null for fail
