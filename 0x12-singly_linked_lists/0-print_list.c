@@ -1,11 +1,11 @@
-#include "list.h"
+#include "lists.h"
 #include <stdio.h>
 
 /**
  * print_list - Entry point
- * @h: param meter that points to list_t
+ * @h: param that points to the list_t
  *
- * Return: the number of nodes (success)
+ * Return: the number of nodes
  */
 
 size_t print_list(const list_t *h)
@@ -23,3 +23,4 @@ size_t print_list(const list_t *h)
 	}
 
 	return (n);
+}

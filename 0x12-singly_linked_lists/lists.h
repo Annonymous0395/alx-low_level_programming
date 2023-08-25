@@ -1,4 +1,4 @@
-#ifndef LIST_H
+#ifndef LIST_h
 #define LIST_H
 
 /**
