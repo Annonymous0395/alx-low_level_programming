@@ -5,7 +5,7 @@
 
 /**
  * add_node - Entry point
- * @head: param that points to the list_t 
+ * @head: param that points to the list_t
  * @str: param of type string to be added into the node
  *
  * Return: the address of the new element, or NULL if it fails
