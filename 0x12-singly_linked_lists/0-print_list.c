@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_lis - Entry point
+ * print_list - Entry point
  * @h: param meter that points to list_t
  *
  * Return: the number of nodes (success)
