@@ -31,14 +31,13 @@ int _strlen_recursion(char *s)
  * @s: param to be checked
  * @n: counter
  *
- * Return: Always 0 (success)
+ * Return: void
  */
 
-int _strlens(char *s, int n)
+void _strlens(char *s, int n)
 {
 	if (s[n] != '\0')
 	{
 		n++;
 	}
-	return (n);
 }
