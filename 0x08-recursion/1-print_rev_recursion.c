@@ -16,8 +16,6 @@ void _print_rev_recursion(char *s)
 
 	if (s[n] == '\0')
 	{
-		n--;
-
 		_putchar(s[n]);
 		_rev_putsn(s, n - 1);
 	}
@@ -46,11 +44,15 @@ void _rev_putsn(char *s, int n)
  * @s: param to be counted
  * @n: counter for param
  *
- * Return: void
+ * Return: j if successful
  */
 
 int _strlen(char *s, int j)
 {
+	if(s == "")
+	{
+		return(0);
+	}
 	if (s[j] != '\0')
 	{
 		j++;
