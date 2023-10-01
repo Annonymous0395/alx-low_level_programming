@@ -18,25 +18,26 @@ int _strlen_recursion(char *s)
 
 	if (s[n] != '\0')
 	{
-		_strlen(s, n + 1);
+		_strlens(s, n + 1);
 	}
+	return (n)
 }
 
 #include "main.h"
 
 /**
- * _strlen - Entry point
+ * _strlens - Entry point
  * @s: param to be checked
  * @n: counter
  *
  * Return: Always 0 (success)
  */
 
-int _strlen(char *s, int n)
+int _strlens(char *s, int n)
 {
 	if (s[n] != '\0')
 	{
 		n++;
 	}
-	return (n);
+	return (n)
 }
