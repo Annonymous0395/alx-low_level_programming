@@ -1,7 +1,7 @@
 #include "main.h"
 
 void _rev_putsn(char *s, int n);
-int _strlen(char *s, int n);
+int _strlen(char *s);
 
 /**
  * _print_rev_recursion - Entry point
@@ -53,7 +53,7 @@ int _strlen(char *s)
 {
 	int j = 0;
 
-	if (s[n] != '\0')
+	if (s[j] != '\0')
 	{
 		j++;
 		_strlen(s, j + 1);
