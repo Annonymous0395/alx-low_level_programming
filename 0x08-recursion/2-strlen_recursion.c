@@ -1,6 +1,6 @@
 #include "main.h"
 
-int _strlens(char *s, int n);
+void _strlens(char *s, int n);
 /**
  * _strlen_recursion - Entry point
  * @s: param to be checked
