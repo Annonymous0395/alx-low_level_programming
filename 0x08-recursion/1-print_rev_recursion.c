@@ -22,8 +22,8 @@ void _print_rev_recursion(char *s)
 	}
 	if (s[n] == '\0')
 	{
-		_putchar(s[n]);
-		_rev_putsn(s, n - 1);
+		_putchar(s[j]);
+		_rev_putsn(s, j - 1);
 	}
 	_putchar('\n');
 }
