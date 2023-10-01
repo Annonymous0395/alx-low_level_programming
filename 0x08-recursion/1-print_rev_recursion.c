@@ -51,8 +51,6 @@ void _rev_putsn(char *s, int n)
 
 int _strlen(char *s, int n)
 {
-	int n = 0;
-
 	if (s[n] != '\0')
 	{
 		n++;
