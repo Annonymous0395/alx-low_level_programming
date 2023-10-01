@@ -10,14 +10,15 @@
 int _strlen_recursion(char *s)
 {
 	int n = 0;
-	if (*s == "")
+
+	if (s[0] == '\0')
 	{
 		return (0);
 	}
 
 	if (s[n] != '\0')
 	{
-		n++;
+		_strlen(s, n + 1);
 	}
 }
 
@@ -27,6 +28,7 @@ int _strlen_recursion(char *s)
  * _strlen - Entry point
  * @s: param to be checked
  * @n: counter
+ *
  * Return: Always 0 (success)
  */
 
@@ -36,4 +38,5 @@ int _strlen(char *s, int n)
 	{
 		n++;
 	}
+	return (n);
 }
