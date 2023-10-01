@@ -12,7 +12,7 @@ int _strlen(char *s, int n);
 
 void _print_rev_recursion(char *s)
 {
-	int n = _strlen(char *s, int n);
+	int n = _strlen(s, n);
 
 	if (s[n] == '\0')
 	{
@@ -56,7 +56,7 @@ int _strlen(char *s, int n)
 	if (s[n] != '\0')
 	{
 		n++;
-		_strlen(s, n + 1)
+		_strlen(s, n + 1);
 	}
 	return (n);
 }
