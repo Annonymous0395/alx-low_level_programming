@@ -39,7 +39,7 @@ int _strlens(char *s, int n)
 	if (s[n] != '\0')
 	{
 		n++;
-		n = _strlens(s, n +1)
+		n = _strlens(s, n +1);
 	}
 	return (n);
 }
