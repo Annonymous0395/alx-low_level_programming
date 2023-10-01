@@ -23,7 +23,7 @@ void _print_rev_recursion(char *s)
 		_putchar(s[n]);
 		_rev_putsn(s, n - 1);
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
 
 /**
