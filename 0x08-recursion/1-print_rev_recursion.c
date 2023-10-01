@@ -1,6 +1,8 @@
 #include "main.h"
 
 void _rev_putsn(char *s, int n);
+int _strlen(char *s, int n);
+
 /**
  * _print_rev_recursion - Entry point
  * @s: param to be printed
@@ -10,12 +12,8 @@ void _rev_putsn(char *s, int n);
 
 void _print_rev_recursion(char *s)
 {
-	int n = 0;
+	int n = _strlen(char *s, int n);
 
-	while (s[n] != '\0')
-	{
-		n++;
-	}
 	if (s[n] == '\0')
 	{
 		n--;
@@ -43,3 +41,22 @@ void _rev_putsn(char *s, int n)
 	}
 }
 
+/**
+ * _strlen - Entry point
+ * @s: param to be counted
+ * @n: counter for param
+ *
+ * Return: void
+ */
+
+int _strlen(char *s, int n)
+{
+	int n = 0;
+
+	if (s[n] != '\0')
+	{
+		n++;
+		_strlen(s, n + 1)
+	}
+	return (n);
+}
