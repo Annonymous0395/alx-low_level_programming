@@ -1,5 +1,6 @@
 #include "main.h"
 
+void _rev_putsn(char *s, int n);
 /**
  * _print_rev_recursion - Entry point
  * @s: param to be printed
