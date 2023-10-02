@@ -16,16 +16,15 @@ void _print_rev_recursion(char *s)
 
 	int j = 0;
 
-	if (s[n] != '\0')
+	if (s[0] != '\0')
 	{
-		j = _strlen(s, n + 1);
+		j = _strlen(s, j + 1);
 	}
-	if (s[j] !=  '\0')
+	if (s[0] !=  '\0')
 	{
 		_putchar(s[j]);
 		_rev_putsn(s, j - 1);
 	}
-	_putchar('\n');
 }
 
 /**
