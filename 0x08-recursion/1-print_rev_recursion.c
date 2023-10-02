@@ -15,9 +15,9 @@ void _print_rev_recursion(char *s)
 	{
 		if (s[32] == '\0')
 		{
-			int n = 32;
+			int j = 31;
 			_putchar(s[n]);
-			_rev_putsn(s, n - 1);
+			_rev_putsn(s, j - 1);
 		}
 		if (s[47] == '\0')
 		{
