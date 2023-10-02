@@ -10,7 +10,7 @@
 
 int _pow_recursion(int j, int k)
 {
-	if (j < 0)
+	if (k < 0)
 	{
 		return (-1);
 	}
