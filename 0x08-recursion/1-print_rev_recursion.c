@@ -17,8 +17,15 @@ void _print_rev_recursion(char *s)
 		{
 			int n = 32;
 			_putchar(s[n]);
-			_rev_putsn(s, n -1);
+			_rev_putsn(s, n - 1);
 		}
+		if (s[47] == '\0')
+		{
+			int n = 47;
+			_putchar(s[n]);
+			_rev_putsn(s, n - 1);
+		}
+		putchar('\n')
 	}
 }
 
